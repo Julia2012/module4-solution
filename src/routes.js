@@ -3,7 +3,7 @@
 
 angular.module('MenuApp')
 .config(RoutesConfig);
-
+console.log(window.location.hostname);
 RoutesConfig.$inject = ['$stateProvider', '$urlRouterProvider'];
 function RoutesConfig($stateProvider, $urlRouterProvider) {
 
