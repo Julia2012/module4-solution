@@ -8,6 +8,7 @@ angular.module('Data')
     items: '<'
   }
 });
+console.log(window.location.hostname);
 
 })();
   
